@@ -1,2 +1,2 @@
 <?php
-echo "config edited on web later updated";
+echo "config edited on web";
