@@ -1,2 +1,2 @@
 <?php
-echo "example";
+echo "example new update";
