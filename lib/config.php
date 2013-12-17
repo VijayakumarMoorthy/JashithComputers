@@ -1,2 +1,2 @@
 <?php
-define("SERVER",false);
+
