@@ -1,6 +1,6 @@
 <?php
 
-function GCMNotification($registatoin_ids, $message) {
+function GCMNotification($regIds, $message) {
 		
 		$apiKey = "";
 	
@@ -8,7 +8,7 @@ function GCMNotification($registatoin_ids, $message) {
 		$url = 'https://android.googleapis.com/gcm/send';
 	
 		$fields = array(
-				'registration_ids' => $registatoin_ids,
+				'registration_ids' => $regIds,
 				'data' => $message,
 		);
 	
