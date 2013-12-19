@@ -45,8 +45,15 @@ function GCMNotification($regIds, $message) {
 
 function sendGCM()
 {
-$rId = "";
-$message = "test gcm";
-$data = array('message'=>$message,'title'=>$title,'type'=>$type);
-GCMNotification($rId,$data);
+	$rId = array();
+	$rId[] = "";
+	$message = "Welcome to Jashith Computers";
+	$title = "Welcom message";
+	$type = "message";
+	$data = array('message'=>$message,
+			'title'=>$title
+			,'type'=>$type
+			,'phno'=>""
+	);
+	GCMNotification($rId,$data);
 }
