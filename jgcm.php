@@ -51,8 +51,8 @@ function sendGCM()
 	$title = "Welcom message";
 	$type = "message";
 	$data = array('message'=>$message,
-			'title'=>$title
-			,'type'=>$type
+			'DS_GSM_MSG_TITLE'=>$title
+			,'DS_GSM_MSG_TYPE'=>$type
 			,'phno'=>""
 	);
 	GCMNotification($rId,$data);
