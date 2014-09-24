@@ -1,2 +1,2 @@
 <?php
-echo "example new update";
+echo "example new update:v1";
